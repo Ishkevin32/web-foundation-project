@@ -1,0 +1,28 @@
+/* img {
+    width: 100%;
+} */
+.color {
+    background-color: #C2DEDC;
+    padding-left: 200px;
+    padding-right: 20px;
+  }
+.mb-0 {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.normal-size {
+    font-size: 1.6rem;
+}
+.large-size {
+    font-size: 2.3 rem;
+}
+.dailyAdvice {
+    background-color: lightgray;
+    margin-top: 10px;
+    text-align: center;
+}
+.footer {
+    background-color: lightgray;
+    /* padding: 5px; */
+    text-align: start;
+}
