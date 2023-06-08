@@ -1,18 +1,18 @@
 var zoom = document.getElementById('big')
 let zoom1 = document.getElementById('big1')
-zoom.addEventListener('mouseover', largeSize);
+zoom.addEventListener('mouseenter', largeSize);
 function largeSize(){
-    zoom.style.fontSize='1.5rem';
+    zoom.style.fontSize='2.3rem';
 }
-zoom.addEventListener('mouseleave', decreaseSize);
+zoom.addEventListener('mouseout', decreaseSize);
 function decreaseSize(){
-    zoom.style.fontSize='1.2rem';
+    zoom.style.fontSize='2rem';
 }
-zoom1.addEventListener('mouseover', increaseSize);
+zoom1.addEventListener('mouseenter', increaseSize);
 function increaseSize(){
     zoom1.style.fontSize='1.2rem';
 }
-zoom1.addEventListener('mouseleave', normalSize);
+zoom1.addEventListener('mouseout', normalSize);
 function normalSize(){
     zoom1.style.fontSize='1rem';
 }
